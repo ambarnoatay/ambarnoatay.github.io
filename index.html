@@ -1,71 +1,54 @@
-body {
-    background-color: #f9f9f9; /* Light grey background */
-    color: #444444; /* Dark grey text */
-    font-family: 'Helvetica Neue', Arial, sans-serif; /* Modern font */
-    margin: 0;
-    padding: 0;
-}
-
-a {
-    color: #0073e6; /* Blue links */
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-a:hover {
-    color: #005bb5; /* Darker blue on hover */
-}
-
-header, footer {
-    background-color: #ffffff; /* White header and footer */
-    border-bottom: 1px solid #e0e0e0; /* Light grey border */
-    padding: 20px 0;
-    text-align: center;
-}
-
-header h1, footer h1 {
-    color: #0073e6; /* Blue header and footer text */
-    margin: 0;
-}
-
-nav {
-    margin: 20px 0;
-}
-
-nav a {
-    color: #444444; /* Dark grey navigation links */
-    margin: 0 15px;
-    font-size: 18px;
-}
-
-nav a:hover {
-    color: #0073e6; /* Blue navigation links on hover */
-}
-
-main {
-    padding: 20px;
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-main p {
-    line-height: 1.6;
-    font-size: 16px;
-}
-
-footer {
-    background-color: #f1f1f1; /* Light grey background for footer */
-    border-top: 1px solid #e0e0e0; /* Light grey border */
-    padding: 10px 0;
-    color: #444444;
-}
-
-.center-name {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 48px;
-    font-weight: bold;
-    color: #0073e6; /* Blue color */
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My GitHub Pages Site</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        body {
+            font-size: 18px; /* Increase font size for better readability */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header h1, footer h1 {
+            font-size: 36px; /* Larger header and footer text */
+        }
+        nav a {
+            font-size: 20px; /* Larger navigation links */
+        }
+        main {
+            max-width: 1200px; /* Increase main content width */
+        }
+        .center-name {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 48px;
+            font-weight: bold;
+            color: #0073e6; /* Blue color */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My GitHub Pages Site</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Projects</a>
+        <a href="#">LinkedIn</a>
+    </nav>
+    <main>
+        <p>This is a basic setup for the GitHub Pages site.</p>
+    </main>
+    <div class="center-name">A NOT A</div>
+    <footer>
+        <h1>Footer</h1>
+    </footer>
+</body>
+</html>
