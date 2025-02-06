@@ -1,0 +1,29 @@
+body {
+    background-color: #f0f0f0; /* Light grey background */
+    color: #333333; /* Dark grey text */
+}
+
+a {
+    color: #0073e6; /* Blue links */
+}
+
+a:hover {
+    color: #005bb5; /* Darker blue on hover */
+}
+
+header, footer {
+    background-color: #ffffff; /* White header and footer */
+    border-bottom: 1px solid #e0e0e0; /* Light grey border */
+}
+
+header h1, footer h1 {
+    color: #0073e6; /* Blue header and footer text */
+}
+
+nav a {
+    color: #333333; /* Dark grey navigation links */
+}
+
+nav a:hover {
+    color: #0073e6; /* Blue navigation links on hover */
+}
