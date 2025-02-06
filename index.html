@@ -8,6 +8,12 @@
     <style>
         body {
             font-size: 18px; /* Increase font size for better readability */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
         }
         header h1, footer h1 {
             font-size: 36px; /* Larger header and footer text */
@@ -17,6 +23,15 @@
         }
         main {
             max-width: 1200px; /* Increase main content width */
+        }
+        .center-name {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 48px;
+            font-weight: bold;
+            color: #0073e6; /* Blue color */
         }
     </style>
 </head>
@@ -32,6 +47,7 @@
     <main>
         <p>This is a basic setup for the GitHub Pages site.</p>
     </main>
+    <div class="center-name">A NOT A</div>
     <footer>
         <h1>Footer</h1>
     </footer>
